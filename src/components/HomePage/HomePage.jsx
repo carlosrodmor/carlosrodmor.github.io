@@ -3,6 +3,8 @@ import profilePhoto from '../../assets/_DSC9423.jpg'
 import TypewriterEffect from '../TypewriterEffect/TypewriterEffect'
 import CardProject from '../CardProject/CardProject'
 import firstProjectImg from '../../assets/firstproject.jpeg'
+import secondProjectImg from '../../assets/secondproject.jpeg'
+import finalProjectImg from '../../assets/finalproject.jpeg'
 
 export default function HomePage() {
   return (
@@ -38,7 +40,7 @@ export default function HomePage() {
       <div className='projects grid grid-cols-2 gap-2'>
         <h2 className='projectsTitle'>Projects</h2>
       </div>
-      <div className='grid grid-cols-3 gap-1'>
+      <div className='grid grid-cols-3 gap-10'>
         <CardProject
           title={'Ironhack DOM Project'}
           description={
@@ -48,20 +50,18 @@ export default function HomePage() {
           url={'https://carlosrodmor.github.io/octopus-game/'}
         />
         <CardProject
-          title={'Ironhack DOM Project'}
-          description={
-            "This was my first project using the JS DOM (If you have a high frame rate (FPS) while gaming, it's advisable to lower it for optimal performance.)"
-          }
-          imageUrl={firstProjectImg}
-          url={'https://carlosrodmor.github.io/octopus-game/'}
+          title={'Ironhack Back-end Project'}
+          description={'This was my second project using Node.js, Express.js and AXIOS'}
+          imageUrl={secondProjectImg}
+          url={'https://movies-project2.fly.dev/'}
         />
         <CardProject
-          title={'Ironhack DOM Project'}
+          title={'Ironhack Final Project '}
           description={
-            "This was my first project using the JS DOM (If you have a high frame rate (FPS) while gaming, it's advisable to lower it for optimal performance.)"
+            'This is the MOST IMPORTANT project I have worked on so far, alongside two colleagues, using the MERN stack.'
           }
-          imageUrl={firstProjectImg}
-          url={'https://carlosrodmor.github.io/octopus-game/'}
+          imageUrl={finalProjectImg}
+          url={'https://code-connectt.netlify.app/'}
         />
       </div>
     </div>
