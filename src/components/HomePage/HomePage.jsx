@@ -5,8 +5,34 @@ import CardProject from '../CardProject/CardProject'
 import firstProjectImg from '../../assets/firstproject.jpeg'
 import secondProjectImg from '../../assets/secondproject.jpeg'
 import finalProjectImg from '../../assets/finalproject.jpeg'
+import Timeline from '../Timeline/Timeline'
+import { useEffect } from 'react'
 
 export default function HomePage() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY
+      const windowHeight = window.innerHeight
+      const pageHeight = document.documentElement.scrollHeight
+      const scrollPercentage = scrollPosition / (pageHeight - windowHeight)
+
+      const startColor = { r: 31, g: 41, b: 55 }
+      const endColor = { r: 40, g: 60, b: 100 }
+
+      const currentColor = {
+        r: Math.round(startColor.r + (endColor.r - startColor.r) * scrollPercentage),
+        g: Math.round(startColor.g + (endColor.g - startColor.g) * scrollPercentage),
+        b: Math.round(startColor.b + (endColor.b - startColor.b) * scrollPercentage)
+      }
+
+      document.body.style.backgroundColor = `rgb(${currentColor.r}, ${currentColor.g}, ${currentColor.b})`
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
     <div className='HomePage '>
       <div className='grid grid-cols-2 gap-2'>
@@ -37,21 +63,23 @@ export default function HomePage() {
           <img src={profilePhoto} alt='profilePhoto' className='profilePhoto' />
         </div>
       </div>
-      <div className='projects grid grid-cols-2 gap-2'>
+      <div className='projects grid grid-cols-2 gap-2 ' id='projects-section'>
         <h2 className='projectsTitle'>Projects</h2>
       </div>
       <div className='grid grid-cols-3 gap-10'>
         <CardProject
           title={'Ironhack DOM Project'}
           description={
-            "This was my first project using the JS DOM (If you have a high frame rate (FPS) while gaming, it's advisable to lower it for optimal performance.)"
+            "This was my first project manipulating the DOM (If you have a high frame rate (FPS) while gaming, it's advisable to lower it for optimal performance.)"
           }
           imageUrl={firstProjectImg}
           url={'https://carlosrodmor.github.io/octopus-game/'}
         />
         <CardProject
           title={'Ironhack Back-end Project'}
-          description={'This was my second project using Node.js, Express.js and AXIOS'}
+          description={
+            'This was my second project using Node.js, Express.js and AXIOS and also adding some extra front-end development'
+          }
           imageUrl={secondProjectImg}
           url={'https://movies-project2.fly.dev/'}
         />
@@ -63,6 +91,11 @@ export default function HomePage() {
           imageUrl={finalProjectImg}
           url={'https://code-connectt.netlify.app/'}
         />
+      </div>
+
+      <div id='timeline-section'>
+        <h2 className='timelineTitle'>My timeline</h2>
+        <Timeline />
       </div>
     </div>
   )

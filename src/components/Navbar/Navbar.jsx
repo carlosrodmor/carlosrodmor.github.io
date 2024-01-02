@@ -12,7 +12,12 @@ const navigation = [
   },
   {
     name: 'Projects',
-    href: '/proyectos',
+    href: '#projects-section',
+    current: false
+  },
+  {
+    name: 'Timeline',
+    href: '#timeline-section',
     current: false
   }
 ]

@@ -36,10 +36,21 @@
 }
 
 .projects {
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .projectsTitle {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 110px;
+}
+
+.timelineTitle {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 80px;
