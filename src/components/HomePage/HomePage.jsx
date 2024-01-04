@@ -1,5 +1,5 @@
 import './HomePage.css'
-import profilePhoto from '../../assets/_DSC9423.jpg'
+import profilePhoto from '../../assets/profileCarlos.png'
 import TypewriterEffect from '../TypewriterEffect/TypewriterEffect'
 import CardProject from '../CardProject/CardProject'
 import firstProjectImg from '../../assets/firstproject.jpeg'
@@ -7,7 +7,11 @@ import secondProjectImg from '../../assets/secondproject.jpeg'
 import finalProjectImg from '../../assets/finalproject.jpeg'
 import Timeline from '../Timeline/Timeline'
 import { useEffect } from 'react'
-
+import htmlImg from '../../assets/html5.png'
+import cssImg from '../../assets/css.png'
+import jsImg from '../../assets/js.png'
+import reactImg from '../../assets/react.png'
+import nodeImg from '../../assets/node.png'
 export default function HomePage() {
   useEffect(() => {
     const handleScroll = () => {
@@ -16,8 +20,8 @@ export default function HomePage() {
       const pageHeight = document.documentElement.scrollHeight
       const scrollPercentage = scrollPosition / (pageHeight - windowHeight)
 
-      const startColor = { r: 31, g: 41, b: 55 }
-      const endColor = { r: 40, g: 60, b: 100 }
+      const startColor = { r: 0, g: 0, b: 0 }
+      const endColor = { r: 0, g: 0, b: 0 }
 
       const currentColor = {
         r: Math.round(startColor.r + (endColor.r - startColor.r) * scrollPercentage),
@@ -35,7 +39,7 @@ export default function HomePage() {
 
   return (
     <div className='HomePage '>
-      <div className='grid grid-cols-2 gap-2'>
+      <div className='grid grid-cols-1 gap-2 allDescription'>
         <div>
           <div>
             <TypewriterEffect
@@ -59,10 +63,8 @@ export default function HomePage() {
             provide, such as mountaineering, tennis, and football.
           </p>
         </div>
-        <div className='colPhoto'>
-          <img src={profilePhoto} alt='profilePhoto' className='profilePhoto' />
-        </div>
       </div>
+
       <div className='projects grid grid-cols-2 gap-2 ' id='projects-section'>
         <h2 className='projectsTitle'>Projects</h2>
       </div>
@@ -78,7 +80,7 @@ export default function HomePage() {
         <CardProject
           title={'Ironhack Back-end Project'}
           description={
-            'This was my second project using Node.js, Express.js and AXIOS and also adding some extra front-end development'
+            'This was my second project using Node.js, Express.js and AXIOS and also adding some extra front-end development.'
           }
           imageUrl={secondProjectImg}
           url={'https://movies-project2.fly.dev/'}

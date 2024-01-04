@@ -10,3 +10,11 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background-image: url('./assets/pexels-adrien-olichon-2387793.jpg'); /* Asegúrate de poner la ruta correcta a tu imagen */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
