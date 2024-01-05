@@ -12,7 +12,16 @@
   line-height: normal;
   text-align: center;
 }
-
+.skillsTitle {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 100px;
+  padding-top: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
 .descriptionCarlos {
   color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -38,7 +47,6 @@
 }
 
 .projects {
-  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -49,7 +57,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding-top: 110px;
+  padding-top: 80px;
 }
 
 .timelineTitle {

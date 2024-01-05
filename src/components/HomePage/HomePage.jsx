@@ -12,6 +12,7 @@ import cssImg from '../../assets/css.png'
 import jsImg from '../../assets/js.png'
 import reactImg from '../../assets/react.png'
 import nodeImg from '../../assets/node.png'
+import ImageSlider from '../ImageSlider/ImageSlider'
 export default function HomePage() {
   useEffect(() => {
     const handleScroll = () => {
@@ -64,7 +65,10 @@ export default function HomePage() {
           </p>
         </div>
       </div>
-
+      <div>
+        <h2 className='skillsTitle'>Skills</h2>
+        <ImageSlider />
+      </div>
       <div className='projects grid grid-cols-2 gap-2 ' id='projects-section'>
         <h2 className='projectsTitle'>Projects</h2>
       </div>

@@ -1,0 +1,23 @@
+.slider-container {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  animation: slide 1000s linear infinite;
+  gap: 200px;
+  color: white;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}
