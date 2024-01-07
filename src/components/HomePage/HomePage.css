@@ -1,5 +1,4 @@
 .HomePage {
-  padding-bottom: 855px;
   padding: 100px;
 }
 
@@ -30,8 +29,9 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
 }
 
 .languages {
@@ -83,4 +83,30 @@
   50% {
     opacity: 0;
   }
+}
+
+.buttonEmail {
+  text-align: center;
+}
+
+.cssbuttons-io {
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 0.05em;
+  border-radius: 0.8em;
+  cursor: pointer;
+  border: none;
+  background: white;
+  color: black;
+  overflow: hidden;
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }

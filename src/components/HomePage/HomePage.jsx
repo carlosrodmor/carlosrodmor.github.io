@@ -7,12 +7,10 @@ import secondProjectImg from '../../assets/secondproject.jpeg'
 import finalProjectImg from '../../assets/finalproject.jpeg'
 import Timeline from '../Timeline/Timeline'
 import { useEffect } from 'react'
-import htmlImg from '../../assets/html5.png'
-import cssImg from '../../assets/css.png'
-import jsImg from '../../assets/js.png'
-import reactImg from '../../assets/react.png'
-import nodeImg from '../../assets/node.png'
 import ImageSlider from '../ImageSlider/ImageSlider'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { MdOutlineAlternateEmail } from 'react-icons/md'
+
 export default function HomePage() {
   useEffect(() => {
     const handleScroll = () => {
@@ -41,19 +39,20 @@ export default function HomePage() {
   return (
     <div className='HomePage '>
       <div className='grid grid-cols-1 gap-2 allDescription'>
-        <div>
+        <div className='allText'>
           <div>
             <TypewriterEffect
               text='Carlos Rodríguez'
               typingDelay={200}
-              className='nameHome'
+              repeatDelay={5000}
+              className='nameHome text-lg md:text-xl'
             />
           </div>
-          <p className='descriptionCarlos'>
-            I am an enthusiastic and positive professional, with a solid technical
-            foundation in web development and programming, including key technologies such
-            as <span className='languages'>HTML5</span>,{' '}
-            <span className='languages'>CSS</span>, and{' '}
+          <p className='descriptionCarlos text-base md:text-lg'>
+            Enthusiastic and positive, with a solid technical foundation in web
+            development and programming, including key technologies such as{' '}
+            <span className='languages'>HTML5</span>,{' '}
+            <span className='languages'>CSS3</span>, and{' '}
             <span className='languages'>JavaScript</span>. Passionate about continuous
             learning, I also possess skills in{' '}
             <span className='languages'>JavaScript </span>
@@ -66,13 +65,18 @@ export default function HomePage() {
         </div>
       </div>
       <div>
-        <h2 className='skillsTitle'>Skills</h2>
+        <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold skillsTitle'>Skills</h2>
         <ImageSlider />
       </div>
-      <div className='projects grid grid-cols-2 gap-2 ' id='projects-section'>
-        <h2 className='projectsTitle'>Projects</h2>
+      <div
+        className='projects grid grid-cols-1 md:grid-cols-2 gap-2'
+        id='projects-section'
+      >
+        <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold projectsTitle'>
+          Projects
+        </h2>
       </div>
-      <div className='grid grid-cols-3 gap-10'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6'>
         <CardProject
           title={'Ironhack DOM Project'}
           description={
@@ -98,10 +102,32 @@ export default function HomePage() {
           url={'https://code-connectt.netlify.app/'}
         />
       </div>
-
       <div id='timeline-section'>
-        <h2 className='timelineTitle'>My timeline</h2>
+        <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold timelineTitle'>
+          My timeline
+        </h2>
         <Timeline />
+      </div>
+      <div className='socialIcons' id='contact-section'>
+        <a
+          href='https://www.github.com/carlosrodmor'
+          className='text-gray-300 hover:text-white mx-10'
+        >
+          <FaGithub size={72} />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/carlos-rodr%C3%ADguez-morales/'
+          className='text-gray-300 hover:text-white mx-10'
+        >
+          <FaLinkedin size={72} />
+        </a>
+        <a
+          href='mailto:carlos97sdg@gmail.com'
+          style={{ display: 'inline-block' }}
+          className='text-gray-300 hover:text-white mx-10'
+        >
+          <MdOutlineAlternateEmail size={72} style={{ cursor: 'pointer' }} />
+        </a>
       </div>
     </div>
   )

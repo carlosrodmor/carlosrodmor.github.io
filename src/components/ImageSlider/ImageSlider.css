@@ -9,7 +9,7 @@
 
 .slider {
   display: flex;
-  animation: slide 1000s linear infinite;
+  animation: slide 1800s linear infinite;
   gap: 200px;
   color: white;
 }
@@ -18,6 +18,6 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(calc(-100% / 2));
+    transform: translateX(calc(-50%));
   }
 }

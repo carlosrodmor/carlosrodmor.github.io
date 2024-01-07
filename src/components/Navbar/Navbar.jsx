@@ -6,11 +6,6 @@ import './Navbar.css'
 
 const navigation = [
   {
-    name: 'Inicio',
-    href: '/',
-    current: false
-  },
-  {
     name: 'Projects',
     href: '#projects-section',
     current: false
@@ -18,6 +13,16 @@ const navigation = [
   {
     name: 'Timeline',
     href: '#timeline-section',
+    current: false
+  },
+  {
+    name: 'Contact',
+    href: '#contact-section',
+    current: false
+  },
+  {
+    name: 'CV',
+    href: 'https://drive.google.com/file/d/17vFdueDYE05FowVKrxaohccLdhxHChnN/view?usp=sharing',
     current: false
   }
 ]
