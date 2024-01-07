@@ -51,9 +51,7 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className='flex flex-1 items-center justify-center sm:items-stretch sm:justify-start buttonsNavbar'>
-                <div className='flex flex-shrink-0 items-center'>
-                  <h2 className='portfolioNav hidden md:inline'>Portfolio</h2>
-                </div>
+                <div className='flex flex-shrink-0 items-center'></div>
                 <div className='flex flex-1 justify-center items-center'>
                   <div className='flex space-x-4'>
                     {navigation.map(item => (

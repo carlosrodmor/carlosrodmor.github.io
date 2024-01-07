@@ -40,7 +40,7 @@ export default function HomePage() {
     <div className='HomePage '>
       <div className='grid grid-cols-1 gap-2 allDescription'>
         <div className='allText'>
-          <div>
+          <div className='carlosText'>
             <TypewriterEffect
               text='Carlos Rodríguez'
               typingDelay={200}
