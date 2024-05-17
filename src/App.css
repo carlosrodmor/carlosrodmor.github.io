@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-image: url('./assets/pexels-adrien-olichon-2387793.jpg'); /* Asegúrate de poner la ruta correcta a tu imagen */
+  background-image: url('./assets/pexels-adrien-olichon-2387793.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

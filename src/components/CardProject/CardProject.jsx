@@ -6,13 +6,9 @@ import Typography from '@mui/material/Typography'
 import { CardActionArea } from '@mui/material'
 
 export default function CardProject({ title, description, imageUrl, url }) {
-  const handleClick = () => {
-    window.location.href = url
-  }
-
   return (
     <Card sx={{ backgroundColor: 'transparent', color: 'white' }}>
-      <CardActionArea onClick={handleClick}>
+      <CardActionArea component='a' href={url} target='_blank' rel='noopener noreferrer'>
         <CardMedia component='img' height='140' image={imageUrl} />
         <CardContent>
           <Typography gutterBottom variant='h5' component='div'>

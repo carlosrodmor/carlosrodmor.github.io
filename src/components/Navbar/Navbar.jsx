@@ -76,12 +76,14 @@ export default function Navbar() {
                 <a
                   href='https://www.github.com/carlosrodmor'
                   className='text-gray-300 hover:text-white mx-2'
+                  target='_blank'
                 >
                   <FaGithub size={24} />
                 </a>
                 <a
                   href='https://www.linkedin.com/in/carlos-rodr%C3%ADguez-morales/'
                   className='text-gray-300 hover:text-white mx-2'
+                  target='_blank'
                 >
                   <FaLinkedin size={24} />
                 </a>

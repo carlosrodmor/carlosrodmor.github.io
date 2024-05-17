@@ -11,6 +11,7 @@
   line-height: normal;
   text-align: center;
 }
+
 .skillsTitle {
   color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -25,6 +26,7 @@
 .carlosText {
   font-size: 80px;
 }
+
 .descriptionCarlos {
   color: #fff;
   font-family: 'Poppins', sans-serif;
@@ -80,8 +82,7 @@
 }
 
 @keyframes blink {
-  0%,
-  100% {
+  0%, 100% {
     opacity: 1;
   }
   50% {
@@ -113,4 +114,124 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .nameHome {
+    font-size: 70px;
+  }
+  .skillsTitle {
+    font-size: 60px;
+  }
+  .carlosText {
+    font-size: 60px;
+  }
+  .projectsTitle,
+  .timelineTitle {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .HomePage {
+    padding: 80px;
+  }
+  .nameHome {
+    font-size: 60px;
+  }
+  .skillsTitle {
+    font-size: 50px;
+  }
+  .carlosText {
+    font-size: 50px;
+  }
+  .projectsTitle,
+  .timelineTitle {
+    font-size: 60px;
+  }
+  .descriptionCarlos {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .profilePhoto {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HomePage {
+    padding: 60px;
+  }
+  .nameHome {
+    font-size: 50px;
+  }
+  .skillsTitle {
+    font-size: 40px;
+  }
+  .carlosText {
+    font-size: 40px;
+  }
+  .projectsTitle,
+  .timelineTitle {
+    font-size: 50px;
+  }
+  .descriptionCarlos {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .profilePhoto {
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .HomePage {
+    padding: 40px;
+  }
+  .nameHome {
+    font-size: 40px;
+  }
+  .skillsTitle {
+    font-size: 30px;
+  }
+  .carlosText {
+    font-size: 30px;
+  }
+  .projectsTitle,
+  .timelineTitle {
+    font-size: 40px;
+  }
+  .descriptionCarlos {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .profilePhoto {
+    height: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+  .HomePage {
+    padding: 20px;
+  }
+  .nameHome {
+    font-size: 30px;
+  }
+  .skillsTitle {
+    font-size: 25px;
+  }
+  .carlosText {
+    font-size: 25px;
+  }
+  .projectsTitle,
+  .timelineTitle {
+    font-size: 30px;
+  }
+  .descriptionCarlos {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .profilePhoto {
+    height: 200px;
+  }
 }

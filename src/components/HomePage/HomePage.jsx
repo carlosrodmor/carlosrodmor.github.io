@@ -37,7 +37,7 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className='HomePage '>
+    <div className='HomePage'>
       <div className='grid grid-cols-1 gap-2 allDescription'>
         <div className='allText'>
           <div className='carlosText'>
@@ -94,7 +94,7 @@ export default function HomePage() {
           url={'https://movies-project2.fly.dev/'}
         />
         <CardProject
-          title={'Ironhack Final Project '}
+          title={'Ironhack Final Project'}
           description={
             'This is the MOST IMPORTANT project I have worked on so far, alongside two colleagues, using the MERN stack.'
           }
@@ -111,18 +111,24 @@ export default function HomePage() {
       <div className='socialIcons' id='contact-section'>
         <a
           href='https://www.github.com/carlosrodmor'
+          target='_blank'
+          rel='noopener noreferrer'
           className='text-gray-300 hover:text-white mx-10'
         >
           <FaGithub size={72} />
         </a>
         <a
           href='https://www.linkedin.com/in/carlos-rodr%C3%ADguez-morales/'
+          target='_blank'
+          rel='noopener noreferrer'
           className='text-gray-300 hover:text-white mx-10'
         >
           <FaLinkedin size={72} />
         </a>
         <a
           href='mailto:carlos97sdg@gmail.com'
+          target='_blank'
+          rel='noopener noreferrer'
           style={{ display: 'inline-block' }}
           className='text-gray-300 hover:text-white mx-10'
         >
