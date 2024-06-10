@@ -220,7 +220,7 @@
     padding: 20px;
   }
   .nameHome {
-    font-size: 40px;
+    font-size: 36px;
   }
   .skillsTitle {
     font-size: 50px;
@@ -240,5 +240,17 @@
   }
   .profilePhoto {
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nameHome {
+    font-size: 32px;
+  }
+
+  .descriptionCarlos {
+    font-size: 15px;
+    margin-right: 1%;
+    text-align: justify;
   }
 }
