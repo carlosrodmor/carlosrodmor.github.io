@@ -38,6 +38,7 @@
   margin-left: 25%;
   margin-right: 25%;
   text-align: center;
+  text-align: justify;
 }
 
 .languages {
@@ -82,7 +83,8 @@
 }
 
 @keyframes blink {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
@@ -116,7 +118,7 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .nameHome {
     font-size: 70px;
   }
@@ -132,7 +134,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .HomePage {
     padding: 80px;
   }
@@ -150,15 +152,16 @@
     font-size: 60px;
   }
   .descriptionCarlos {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
   }
   .profilePhoto {
     height: 350px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .HomePage {
     padding: 60px;
   }
@@ -178,13 +181,14 @@
   .descriptionCarlos {
     margin-left: 15%;
     margin-right: 15%;
+    text-align: justify;
   }
   .profilePhoto {
     height: 300px;
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .HomePage {
     padding: 40px;
   }
@@ -204,32 +208,35 @@
   .descriptionCarlos {
     margin-left: 10%;
     margin-right: 10%;
+    text-align: justify;
   }
   .profilePhoto {
     height: 250px;
   }
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .HomePage {
     padding: 20px;
   }
   .nameHome {
-    font-size: 30px;
+    font-size: 50px;
   }
   .skillsTitle {
-    font-size: 25px;
+    font-size: 50px;
   }
   .carlosText {
     font-size: 25px;
   }
   .projectsTitle,
   .timelineTitle {
-    font-size: 30px;
+    font-size: 45px;
   }
   .descriptionCarlos {
+    font-size: 15px;
     margin-left: 5%;
     margin-right: 5%;
+    text-align: justify;
   }
   .profilePhoto {
     height: 200px;
