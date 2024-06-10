@@ -1,5 +1,3 @@
-Este va a ser mi portfolio personal donde voy a ir introduciendo todos los proyectos y donde iré implementando todo el conocimiento que vaya obteniendo a lo largo del tiempo, sobre la base de mi stack MERN.
+# Portfolio
 
----
-
-This will be my personal portfolio where I will be adding all the projects and where I will be implementing all the knowledge I acquire over time, based on my MERN stack.
+En este portfolio en la rama `main` copiar los archivos del `dist` una vez hacemos el `npm run build` desde la rama `master`.
