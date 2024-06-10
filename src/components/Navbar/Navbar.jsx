@@ -23,7 +23,8 @@ const navigation = [
   {
     name: 'CV',
     href: 'https://drive.google.com/file/d/1P-oaerGkAnk2qrQMLgO0HC7sqZ4rmY-V/view?usp=sharing',
-    current: false
+    current: false,
+    target: '_blank'
   }
 ]
 
@@ -58,6 +59,7 @@ export default function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
+                        target={item.target}
                         className={classNames(
                           item.current
                             ? 'bg-gray-900 text-white'
@@ -98,6 +100,7 @@ export default function Navbar() {
                   key={item.name}
                   as='a'
                   href={item.href}
+                  target={item.target}
                   className={classNames(
                     item.current
                       ? 'bg-gray-900 text-white'

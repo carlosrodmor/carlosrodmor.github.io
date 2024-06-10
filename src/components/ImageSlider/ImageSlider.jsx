@@ -8,11 +8,12 @@ import {
   faCss3Alt,
   faJs,
   faReact,
-  faNodeJs
+  faNodeJs,
+  faAngular
 } from '@fortawesome/free-brands-svg-icons'
 
 const ImageSlider = () => {
-  const icons = [faHtml5, faCss3Alt, faJs, faReact, faNodeJs, <SiMongodb />]
+  const icons = [faHtml5, faCss3Alt, faJs, faReact, faAngular, faNodeJs, <SiMongodb />]
 
   const renderIcon = icon => {
     if (icon.iconName) {

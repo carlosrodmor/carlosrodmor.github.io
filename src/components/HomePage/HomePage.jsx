@@ -56,8 +56,9 @@ export default function HomePage() {
             <span className='languages'>JavaScript</span>. Passionate about continuous
             learning, I also possess skills in{' '}
             <span className='languages'>JavaScript </span>
-            frameworks like <span className='languages'>React.js</span>, and in back-end
-            development with <span className='languages'>Node.js </span>
+            frameworks like <span className='languages'>React </span>and{' '}
+            <span className='languages'>Angular</span>, as well as back-end development
+            with <span className='languages'>Node.js </span>
             and <span className='languages'>MongoDB</span>. Outside of technology, I enjoy
             the cultural enrichment and well-being that sports and outdoor activities
             provide, such as mountaineering, tennis, and football.
