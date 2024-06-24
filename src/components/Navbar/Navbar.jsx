@@ -22,7 +22,7 @@ const navigation = [
   },
   {
     name: 'CV',
-    href: 'https://drive.google.com/file/d/1uw-JAqUah31NPFJydOfmCdEHq4j51aBt/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1wIG-LFsWL9ylS-5K85r5sOJ3r9489xuY/view?usp=sharing',
     current: false,
     target: '_blank'
   }
