@@ -14664,9 +14664,9 @@ function ps({ title: e, description: t, imageUrl: n, url: r }) {
     })
   })
 }
-const j4 = './assets/firstproject-BXtYO2ec.jpeg',
-  M4 = './assets/secondproject-_kmcLcwg.jpeg',
-  I4 = './assets/finalproject-MZ9jlHal.jpeg',
+const j4 = '../assets/firstproject-BXtYO2ec.jpeg',
+  M4 = '../assets/secondproject-_kmcLcwg.jpeg',
+  I4 = '../assets/finalproject-MZ9jlHal.jpeg',
   L4 = () =>
     S.jsxs('section', {
       className: 'design-section',

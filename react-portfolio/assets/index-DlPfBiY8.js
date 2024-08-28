@@ -15127,9 +15127,9 @@ function Is({ title: e, description: t, imageUrl: n, url: r }) {
     })
   })
 }
-const $k = './assets/firstproject-Fe1g7Z5x.jpeg',
-  jk = './assets/secondproject-D-SZwtzC.jpeg',
-  Mk = './assets/finalproject-xn2OUdqU.jpeg',
+const $k = '../assets/firstproject-Fe1g7Z5x.jpeg',
+  jk = '../assets/secondproject-D-SZwtzC.jpeg',
+  Mk = '../assets/finalproject-xn2OUdqU.jpeg',
   Ik = () =>
     S.jsxs('section', {
       className: 'design-section',

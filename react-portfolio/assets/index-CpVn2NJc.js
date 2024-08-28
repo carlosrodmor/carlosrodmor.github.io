@@ -15129,9 +15129,9 @@ function Ms({ title: e, description: t, imageUrl: n, url: r }) {
     })
   })
 }
-const jk = './assets/firstproject-Fe1g7Z5x.jpeg',
-  Mk = './assets/secondproject-D-SZwtzC.jpeg',
-  Ik = './assets/finalproject-xn2OUdqU.jpeg',
+const jk = '../assets/firstproject-Fe1g7Z5x.jpeg',
+  Mk = '../assets/secondproject-D-SZwtzC.jpeg',
+  Ik = '../assets/finalproject-xn2OUdqU.jpeg',
   Lk = () =>
     S.jsxs('section', {
       className: 'design-section',
