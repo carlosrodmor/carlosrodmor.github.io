@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de Carlos Rodríguez - Desarrollador Web">
-    <meta name="author" content="Carlos Rodríguez">
-    <title>Carlos Rodríguez | Desarrollador Web</title>
-    <script type="module" crossorigin src="/assets/index-ByGYD5q_.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BPQtcpgX.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicons/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Carlos Rodríguez - Desarrollador Web">
+  <meta name="author" content="Carlos Rodríguez">
+  <title>Carlos Rodríguez | FE</title>
+
+  <!-- GitHub Pages SPA redirect script -->
+  <script>
+    // Restaura la ruta original después de redirección desde 404.html
+    (function() {
+      const redirect = sessionStorage.getItem('redirect');
+      if (redirect && redirect !== '/') {
+        sessionStorage.removeItem('redirect');
+        history.replaceState(null, '', redirect);
+      }
+    })();
+  </script>
+  <script type="module" crossorigin src="/assets/index-ByGYD5q_.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BPQtcpgX.css">
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
 </html>
