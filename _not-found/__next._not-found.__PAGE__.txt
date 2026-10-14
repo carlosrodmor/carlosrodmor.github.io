@@ -1,27 +1,32 @@
 2:"$Sreact.fragment"
-3:"/_next/static/chunks/033c41h187-jp.js"
-4:"/_next/static/chunks/1bk9fenx22d5x.js"
-5:"/_next/static/chunks/1x80i8htwsxf1.js"
-6:I[39756,["$3","$4","$5"],"default"]
-7:I[37457,["$3","$4","$5"],"default"]
-c:I[97367,["$3","$4","$5"],"OutletBoundary"]
-d:"$Sreact.suspense"
-10:"ViewportBoundary"
-11:I[97367,["$3","$4","$5"],"$10"]
-12:"MetadataBoundary"
-13:I[97367,["$3","$4","$5"],"$12"]
-14:I[27201,["$3","$4","$5"],"IconMark"]
-9:X
-9:C
+3:"/_next/static/chunks/0umf92h1sb77c.js"
+4:"/_next/static/chunks/1bvarmm6p6oee.js"
+5:"/_next/static/chunks/22bc-js_g2zr1.js"
+6:"/_next/static/chunks/0eo9xfx-05kq6.js"
+7:I[39756,["$3","$4","$5","$6"],"default"]
+8:I[37457,["$3","$4","$5","$6"],"default"]
+d:"/_next/static/chunks/0ucwhwk0iesf0.js"
+e:I[42559,["$3","$4","$5","$6","$d"],"default"]
+10:I[97367,["$3","$4","$5","$6"],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[97367,["$3","$4","$5","$6"],"$14"]
+16:"MetadataBoundary"
+17:I[97367,["$3","$4","$5","$6"],"$16"]
+18:I[27201,["$3","$4","$5","$6"],"IconMark"]
 a:X
-b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],null,["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]]}],"p":"$@f","v":null,"s":"$a"}}]]
-1:[["children",{"s":"/_not-found","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
-0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L11",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Carlos Rodríguez — Frontend Engineer"}],["$","meta","1",{"name":"description","content":"Portfolio of Carlos Rodríguez, frontend engineer. Fast, accessible interfaces, crafted down to the last detail."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.1rvqyl4zdji55.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","3",{"rel":"icon","href":"/icon.svg?icon.3ors0cerl0qke.svg","sizes":"any","type":"image/svg+xml"}],["$","link","4",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.0p_h4r9o0llfq.png","sizes":"180x180","type":"image/png"}],["$","$L14","5",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@15","v":null,"s":"$a"}},"a":"$@16","u":"$@17","b":"PHRZlp8qYxpc5EGMW2Tm-"}
-e:null
-17:true
-a:300
 a:C
-16:0
-8:"$undefined"
-15:"$undefined"
-f:"$undefined"
+b:X
+f:T767,.Ng4v-G_canvas{z-index:0;pointer-events:none;filter:invert();opacity:0;width:100%;height:100%;transition:opacity var(--duration-slow) ease;display:block;position:absolute;inset:0;-webkit-mask-image:radial-gradient(72% 62%,#000 35%,#0000 100%);mask-image:radial-gradient(72% 62%,#000 35%,#0000 100%)}.Ng4v-G_visible{opacity:1}@media (prefers-reduced-motion:reduce){.Ng4v-G_canvas{transition:none}}
+.bd15Mq_notFound{background:var(--background);align-items:flex-end;min-height:100svh;display:flex;position:relative;overflow:hidden}.bd15Mq_content{z-index:1;width:100%;max-width:var(--content-max);padding:0 var(--gutter) clamp(2rem, 7vh, 4rem);animation:bd15Mq_reveal var(--duration-slow) var(--ease-out-expo) .15s both;margin:0 auto;position:relative}.bd15Mq_divider{background:var(--border);border:0;width:100%;height:1px;margin:0 0 1rem}.bd15Mq_row{justify-content:space-between;align-items:baseline;gap:1.5rem;display:flex}.bd15Mq_title{font-size:var(--text-statement);font-weight:var(--weight-medium);letter-spacing:var(--tracking-snug);line-height:var(--leading-snug);color:var(--foreground);margin:0}.bd15Mq_back{font-size:var(--text-label);font-weight:var(--weight-medium);letter-spacing:var(--tracking-wide);text-transform:uppercase;color:var(--foreground);transition:color var(--duration-fast) ease;align-items:center;gap:.45rem;text-decoration:none;display:inline-flex}.bd15Mq_back:hover{color:var(--accent)}.bd15Mq_back:focus-visible{outline:2px solid var(--foreground);outline-offset:4px;border-radius:var(--radius-sm)}.bd15Mq_back svg{transition:transform var(--duration-fast) ease}.bd15Mq_back:hover svg{transform:translate(-3px)}@keyframes bd15Mq_reveal{0%{opacity:0;filter:blur(8px);transform:translateY(18px)}to{opacity:1;filter:blur();transform:translateY(0)}}@media (prefers-reduced-motion:reduce){.bd15Mq_content{animation:none}.bd15Mq_back,.bd15Mq_back svg{transition:none}}
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","$Le",null,{}],[["$","style","0",{"precedence":"next","href":"/_next/static/chunks/2v50lo0xbija3.css","children":"$f"}],["$","script","script-0",{"src":"/_next/static/chunks/0ucwhwk0iesf0.js","async":true}]],["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$b"}}]]
+1:[["children",{"s":"/_not-found","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Carlos Rodríguez — Frontend Engineer"}],["$","meta","1",{"name":"description","content":"Portfolio of Carlos Rodríguez, frontend engineer. Fast, accessible interfaces, crafted down to the last detail."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.1rvqyl4zdji55.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","3",{"rel":"icon","href":"/icon.svg?icon.1q_5izywpdfzv.svg","sizes":"any","type":"image/svg+xml"}],["$","link","4",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.0p_h4r9o0llfq.png","sizes":"180x180","type":"image/png"}],["$","$L18","5",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":null,"s":"$b"}},"a":"$@1a","u":"$@1b","b":"v90s0WowwgNvfJBBJbdnx"}
+12:null
+1b:true
+b:300
+b:C
+1a:0
+9:"$undefined"
+19:"$undefined"
+13:"$undefined"
