@@ -1,7 +1,7 @@
 2:"$Sreact.fragment"
 3:"/_next/static/chunks/0umf92h1sb77c.js"
 4:"/_next/static/chunks/2vt-srcd0oqg4.js"
-5:"/_next/static/chunks/43di055dtd882.js"
+5:"/_next/static/chunks/0xw_b35kf3m2g.js"
 6:"/_next/static/chunks/0eo9xfx-05kq6.js"
 7:I[39756,["$3","$4","$5","$6"],"default"]
 8:I[37457,["$3","$4","$5","$6"],"default"]
@@ -17,7 +17,7 @@ a:C
 b:X
 c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":["$Ld",null,["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":"$@11","v":null,"s":"$b"}}]]
 1:[["children",{"s":"about","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@9","v":"$a","s":"$b"},"c":"$Qc"}]]
-0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Carlos Rodríguez — Frontend Engineer"}],["$","meta","1",{"name":"description","content":"Portfolio of Carlos Rodríguez, frontend engineer. Fast, accessible interfaces, crafted down to the last detail."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.30f79j8wv88ie.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","3",{"rel":"icon","href":"/icon.svg?icon.0829nuslxe_9a.svg","sizes":"any","type":"image/svg+xml"}],["$","link","4",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.08fk13wq4whfk.png","sizes":"180x180","type":"image/png"}],["$","$L16","5",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@17","v":null,"s":"$b"}},"a":"$@18","u":"$@19","b":"CfH93h1AhiuGIghMGJVnv"}
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Carlos Rodríguez — Frontend Engineer"}],["$","meta","1",{"name":"description","content":"Portfolio of Carlos Rodríguez, frontend engineer. Fast, accessible interfaces, crafted down to the last detail."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.30f79j8wv88ie.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","3",{"rel":"icon","href":"/icon.svg?icon.0829nuslxe_9a.svg","sizes":"any","type":"image/svg+xml"}],["$","link","4",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.08fk13wq4whfk.png","sizes":"180x180","type":"image/png"}],["$","$L16","5",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@17","v":null,"s":"$b"}},"a":"$@18","u":"$@19","b":"4mPVnYBQ8RFCLvd2OEhWh"}
 d:E{"digest":"NEXT_REDIRECT;replace;/career;307;"}
 10:null
 19:true
